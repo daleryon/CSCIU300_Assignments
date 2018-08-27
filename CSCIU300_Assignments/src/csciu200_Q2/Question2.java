@@ -1,7 +1,5 @@
 package csciu200_Q2;
 
-//What output is produced by the following? (3 Points)
-
 public class Question2 {
 
 	public static void main(String[] args) {
