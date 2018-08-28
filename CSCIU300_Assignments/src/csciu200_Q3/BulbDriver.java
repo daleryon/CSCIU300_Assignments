@@ -12,13 +12,13 @@ public class BulbDriver {
 		// TODO Auto-generated method stub
 		WallController wallcontroller = new WallController();
 		Bulb bulb = new Bulb();
-		Prompt bulbsOn = new BulbOnPrompt(bulb);
-		Prompt bulbsOff = new BulbOffPrompt(bulb);
+		Prompt bulbOn = new BulbOnPrompt(bulb);
+		Prompt bulbOff = new BulbOffPrompt(bulb);
 		
-		wallcontroller.setPrompt(bulbsOn);
+		wallcontroller.setPrompt(bulbOn);
 		wallcontroller.flipSwitch();
 		
-		wallcontroller.setPrompt(bulbsOff);
+		wallcontroller.setPrompt(bulbOff);
 		wallcontroller.flipSwitch();
 		
 	}
