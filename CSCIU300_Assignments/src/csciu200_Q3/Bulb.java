@@ -1,5 +1,7 @@
 package csciu200_Q3;
 
+//may need to get rid of getters and setters for false
+
 public class Bulb {
 	private boolean on;
 	public void flashOn() {
