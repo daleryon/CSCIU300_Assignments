@@ -22,6 +22,7 @@ public class BulbDriver {
 		wallcontroller.flipSwitch();
 		
 		//return function
+		//scanner to act as wall controller; onClick
 	}
 
 
